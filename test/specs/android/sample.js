@@ -7,7 +7,8 @@ const { $ } = require('webdriverio/build/commands/element');
 
 //app-dev-debug.apk (mhe) with uiAutomator2
 describe('Sample', () => {
-    it.only('sample test', async () => {
+    
+  it.only('sample test', async () => {
         // find = new FlutterFinder(driver);
         const viewsFirst = await driver.getContext();
         console.log(viewsFirst, '*****launch*****')
